@@ -1,0 +1,142 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */;
+		activeTarget = 8DD76F620486A84900D96B5E /* polygonTest */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* polygonTest */,
+		);
+		breakpointsGroup = C448A3E50C44864D00D000A1 /* XCBreakpointsBucket */;
+		codeSenseManager = C4DF810C0AFA92D600BAF0BD /* Code sense */;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 205808693;
+			PBXWorkspaceStateSaveDate = 205808693;
+		};
+		perUserProjectItems = {
+			C448A3ED0C45142500D000A1 /* PBXTextBookmark */ = C448A3ED0C45142500D000A1 /* PBXTextBookmark */;
+			C448A3F50C45B33800D000A1 /* PBXTextBookmark */ = C448A3F50C45B33800D000A1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4DF810B0AFA92D600BAF0BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76F620486A84900D96B5E /* polygonTest */ = {
+		activeExec = 0;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */,
+		);
+	};
+	C448A34A0C44647400D000A1 /* polygon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 11956}}";
+			sepNavSelRange = "{25655, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+		};
+	};
+	C448A3E50C44864D00D000A1 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	C448A3ED0C45142500D000A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A34A0C44647400D000A1 /* polygon.h */;
+		name = "polygon.h: 648";
+		rLen = 0;
+		rLoc = 20229;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 20205;
+	};
+	C448A3F50C45B33800D000A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A34A0C44647400D000A1 /* polygon.h */;
+		name = "polygon.h: 854";
+		rLen = 0;
+		rLoc = 25655;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "«PROJECTNAME»";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C4DF810B0AFA92D600BAF0BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	C4DF810C0AFA92D600BAF0BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

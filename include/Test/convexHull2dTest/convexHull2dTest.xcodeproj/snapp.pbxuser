@@ -1,0 +1,175 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */;
+		activeTarget = 8DD76F620486A84900D96B5E /* convexHull2dTest */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* convexHull2dTest */,
+		);
+		codeSenseManager = C4DF810C0AFA92D600BAF0BD /* Code sense */;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					470,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					122,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 206468319;
+			PBXWorkspaceStateSaveDate = 206468319;
+		};
+		perUserProjectItems = {
+			C448A4DB0C45E82C00D000A1 /* PBXTextBookmark */ = C448A4DB0C45E82C00D000A1 /* PBXTextBookmark */;
+			C448A4DC0C45E82C00D000A1 /* PBXTextBookmark */ = C448A4DC0C45E82C00D000A1 /* PBXTextBookmark */;
+			C448A5270C46AB8200D000A1 /* PBXTextBookmark */ = C448A5270C46AB8200D000A1 /* PBXTextBookmark */;
+			C4C9D7330C47FACB0035D6D5 /* PBXTextBookmark */ = C4C9D7330C47FACB0035D6D5 /* PBXTextBookmark */;
+			C4C9D91B0C4E78C10035D6D5 /* PBXTextBookmark */ = C4C9D91B0C4E78C10035D6D5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4DF810B0AFA92D600BAF0BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76F620486A84900D96B5E /* convexHull2dTest */ = {
+		activeExec = 0;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */,
+		);
+	};
+	C448A3FD0C45B38F00D000A1 /* convexHull2d.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 8414}}";
+			sepNavSelRange = "{21154, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+		};
+	};
+	C448A3FF0C45B38F00D000A1 /* polygon.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 13342}}";
+			sepNavSelRange = "{28539, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+		};
+	};
+	C448A4DB0C45E82C00D000A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A3FF0C45B38F00D000A1 /* polygon.h */;
+		name = "polygon.h: 463";
+		rLen = 0;
+		rLoc = 14518;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 14044;
+	};
+	C448A4DC0C45E82C00D000A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A3FD0C45B38F00D000A1 /* convexHull2d.h */;
+		name = "convexHull2d.h: 301";
+		rLen = 0;
+		rLoc = 9882;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 9627;
+	};
+	C448A5270C46AB8200D000A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A3FD0C45B38F00D000A1 /* convexHull2d.h */;
+		name = "convexHull2d.h: 601";
+		rLen = 0;
+		rLoc = 21154;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C4C9D7330C47FACB0035D6D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A3FF0C45B38F00D000A1 /* polygon.h */;
+		name = "polygon.h: 924";
+		rLen = 0;
+		rLoc = 27859;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C4C9D91B0C4E78C10035D6D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C448A3FF0C45B38F00D000A1 /* polygon.h */;
+		name = "polygon.h: 953";
+		rLen = 0;
+		rLoc = 28539;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C4DF81000AFA92B500BAF0BD /* «PROJECTNAME» */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "«PROJECTNAME»";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C4DF810B0AFA92D600BAF0BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	C4DF810C0AFA92D600BAF0BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

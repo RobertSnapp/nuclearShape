@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = C4DF81000AFA92B500BAF0BD /* lmsViewer */;
+		activeTarget = 8DD76F620486A84900D96B5E /* lsmViewer */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* lsmViewer */,
+		);
+		breakpointsGroup = C45BB7790B54843F004674E9 /* XCBreakpointsBucket */;
+		codeSenseManager = C4DF810C0AFA92D600BAF0BD /* Code sense */;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* lmsViewer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					411,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					250,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					521,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					341,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 206246231;
+			PBXWorkspaceStateSaveDate = 206246231;
+		};
+		perUserProjectItems = {
+			C4C9D8590C4B11BC0035D6D5 /* PBXTextBookmark */ = C4C9D8590C4B11BC0035D6D5 /* PBXTextBookmark */;
+			C4F66B480C077DFC005097F0 /* PBXTextBookmark */ = C4F66B480C077DFC005097F0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4DF810B0AFA92D600BAF0BD /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = /Users/snapp/xcode;
+		};
+	};
+	8DD76F620486A84900D96B5E /* lsmViewer */ = {
+		activeExec = 0;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* lmsViewer */,
+		);
+	};
+	C45BB7790B54843F004674E9 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = lsmViewer;
+		objects = (
+		);
+	};
+	C4C9D8590C4B11BC0035D6D5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		name = "main.cc: main";
+		rLen = 0;
+		rLoc = 4901;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C4DF81000AFA92B500BAF0BD /* lmsViewer */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 0;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			/Volumes/bertie/Users/snapp/lsmData/m568_1eee.lsm,
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = lmsViewer;
+		savedGlobals = {
+			"/Users/snapp/xcode/lsmViewer.build/Development/lsmViewer.build/Objects-normal/ppc/main.ob" = (
+				{
+					display = 1;
+					filename = /Users/snapp/src/lsm/lsmViewer/trunk/lsmViewer/main.cc;
+					name = lsmDirectory;
+				},
+			);
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C4DF810B0AFA92D600BAF0BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	C4DF810C0AFA92D600BAF0BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C4DF810D0AFA930100BAF0BD /* main.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {797, 2898}}";
+			sepNavSelRange = "{4901, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+		};
+	};
+	C4F66B480C077DFC005097F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		name = "main.cc: main";
+		rLen = 0;
+		rLoc = 4901;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+}

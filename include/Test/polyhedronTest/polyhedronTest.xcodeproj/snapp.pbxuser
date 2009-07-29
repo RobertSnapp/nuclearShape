@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = C4DF81000AFA92B500BAF0BD /* polyhedronTest */;
+		activeTarget = 8DD76F620486A84900D96B5E /* polyhedronTest */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* polyhedronTest */,
+		);
+		breakpoints = (
+			C42127BC0E3003190070A53C /* main.cc:55 */,
+			C42127DD0E300ACA0070A53C /* polyhedron.h:702 */,
+			C42127DF0E300AE90070A53C /* polyhedron.h:759 */,
+			C42128330E3073660070A53C /* main.cc:141 */,
+			C42128350E3073F10070A53C /* polyhedron.h:730 */,
+		);
+		codeSenseManager = C4DF810C0AFA92D600BAF0BD /* Code sense */;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* polyhedronTest */,
+			C42C9BC90B89240D000F6E23 /* convexHull */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					297,
+					20,
+					198,
+					147,
+					178,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					587,
+					937.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					286,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1334,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1108,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 239595144;
+			PBXWorkspaceStateSaveDate = 239595144;
+		};
+		perUserProjectItems = {
+			C42127C00E3005360070A53C /* PBXTextBookmark */ = C42127C00E3005360070A53C /* PBXTextBookmark */;
+			C42127C20E3005360070A53C /* PBXTextBookmark */ = C42127C20E3005360070A53C /* PBXTextBookmark */;
+			C42127C40E3005360070A53C /* PBXTextBookmark */ = C42127C40E3005360070A53C /* PBXTextBookmark */;
+			C42127C60E3005360070A53C /* PBXTextBookmark */ = C42127C60E3005360070A53C /* PBXTextBookmark */;
+			C42127C70E3005360070A53C /* PBXTextBookmark */ = C42127C70E3005360070A53C /* PBXTextBookmark */;
+			C42127E00E300DB60070A53C /* PBXTextBookmark */ = C42127E00E300DB60070A53C /* PBXTextBookmark */;
+			C42127E10E300DB60070A53C /* PBXTextBookmark */ = C42127E10E300DB60070A53C /* PBXTextBookmark */;
+			C42127E90E300DB60070A53C /* PBXTextBookmark */ = C42127E90E300DB60070A53C /* PBXTextBookmark */;
+			C42128000E30247D0070A53C /* PBXTextBookmark */ = C42128000E30247D0070A53C /* PBXTextBookmark */;
+			C421281A0E3031230070A53C /* PBXTextBookmark */ = C421281A0E3031230070A53C /* PBXTextBookmark */;
+			C42128370E3078220070A53C /* PBXTextBookmark */ = C42128370E3078220070A53C /* PBXTextBookmark */;
+			C42128400E3078220070A53C /* PBXTextBookmark */ = C42128400E3078220070A53C /* PBXTextBookmark */;
+			C42128510E30E3280070A53C /* PBXTextBookmark */ = C42128510E30E3280070A53C /* PBXTextBookmark */;
+			C42128520E30E3280070A53C /* PBXTextBookmark */ = C42128520E30E3280070A53C /* PBXTextBookmark */;
+			C42128F60E33F8810070A53C /* PBXTextBookmark */ = C42128F60E33F8810070A53C /* PBXTextBookmark */;
+			C469B0620E47EECE00050DA5 /* PBXTextBookmark */ = C469B0620E47EECE00050DA5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4DF810B0AFA92D600BAF0BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76F620486A84900D96B5E /* polyhedronTest */ = {
+		activeExec = 0;
+		executables = (
+			C4DF81000AFA92B500BAF0BD /* polyhedronTest */,
+		);
+	};
+	C42127B30E2FB8640070A53C /* polyhedron.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = polyhedron.h;
+		path = /Users/snapp/src/lsm/active/trunk/include/Test/polyhedronTest/../../polyhedron.h;
+		sourceTree = "<absolute>";
+	};
+	C42127BC0E3003190070A53C /* main.cc:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = polyhedronTest;
+		modificationTime = 238059648.632307;
+		state = 2;
+	};
+	C42127C00E3005360070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127C10E3005360070A53C /* stl_iterator.h */;
+		name = "stl_iterator.h: 614";
+		rLen = 0;
+		rLoc = 19531;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42127C10E3005360070A53C /* stl_iterator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_iterator.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_iterator.h";
+		sourceTree = "<absolute>";
+	};
+	C42127C20E3005360070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		name = "main.cc: 61";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 1023;
+	};
+	C42127C40E3005360070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127C50E3005360070A53C /* stl_iterator.h */;
+		name = "stl_iterator.h: 614";
+		rLen = 0;
+		rLoc = 19531;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42127C50E3005360070A53C /* stl_iterator.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_iterator.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_iterator.h";
+		sourceTree = "<absolute>";
+	};
+	C42127C60E3005360070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127B30E2FB8640070A53C /* polyhedron.h */;
+		name = "polyhedron.h: 271";
+		rLen = 0;
+		rLoc = 10455;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42127C70E3005360070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		name = "main.cc: 61";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 1023;
+	};
+	C42127DB0E300ACA0070A53C /* polyhedron.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = polyhedron.h;
+		path = /Users/snapp/src/lsm/active/trunk/include/Test/polyhedronTest/../../polyhedron.h;
+		sourceTree = "<group>";
+	};
+	C42127DD0E300ACA0070A53C /* polyhedron.h:702 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C42127DB0E300ACA0070A53C /* polyhedron.h */;
+		functionName = "addFace(typename std::list< FaceVertex > const &v, index_t* faceIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 702;
+		location = polyhedronTest;
+		modificationTime = 238059648.633751;
+		state = 2;
+	};
+	C42127DF0E300AE90070A53C /* polyhedron.h:759 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C42127DB0E300ACA0070A53C /* polyhedron.h */;
+		functionName = "addFace(std::list<index_t> const &vIndexList, index_t* faceIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 759;
+		location = polyhedronTest;
+		modificationTime = 238059648.634769;
+		state = 2;
+	};
+	C42127E00E300DB60070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		name = "main.cc: 55";
+		rLen = 0;
+		rLoc = 1086;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 1023;
+	};
+	C42127E10E300DB60070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127E20E300DB60070A53C /* stl_list.h */;
+		name = "stl_list.h: 212";
+		rLen = 0;
+		rLoc = 6335;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 5994;
+	};
+	C42127E20E300DB60070A53C /* stl_list.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_list.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_list.h";
+		sourceTree = "<absolute>";
+	};
+	C42127E90E300DB60070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127EA0E300DB60070A53C /* stl_list.h */;
+		name = "stl_list.h: 212";
+		rLen = 0;
+		rLoc = 6335;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 5994;
+	};
+	C42127EA0E300DB60070A53C /* stl_list.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_list.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_list.h";
+		sourceTree = "<absolute>";
+	};
+	C42127ED0E300DB60070A53C /* stl_list.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_list.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_list.h";
+		sourceTree = "<absolute>";
+	};
+	C42128000E30247D0070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42127ED0E300DB60070A53C /* stl_list.h */;
+		name = "stl_list.h: 212";
+		rLen = 0;
+		rLoc = 6335;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 5994;
+	};
+	C421281A0E3031230070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42C99500B86C7A7000F6E23 /* ntuple.h */;
+		name = "ntuple.h: 195";
+		rLen = 0;
+		rLoc = 4564;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 4229;
+	};
+	C42128330E3073660070A53C /* main.cc:141 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C4DF810D0AFA930100BAF0BD /* main.cc */;
+		functionName = "main (int argc, char * const argv[])";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 141;
+		location = polyhedronTest;
+		modificationTime = 238059648.63568;
+		state = 2;
+	};
+	C42128350E3073F10070A53C /* polyhedron.h:730 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C42127DB0E300ACA0070A53C /* polyhedron.h */;
+		functionName = "addFace(std::list<index_t> const &vIndexList, index_t* faceIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 730;
+		location = polyhedronTest;
+		modificationTime = 238059648.636551;
+		state = 2;
+	};
+	C42128370E3078220070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42128380E3078220070A53C /* stl_vector.h */;
+		name = "stl_vector.h: 510";
+		rLen = 0;
+		rLoc = 18022;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 17639;
+	};
+	C42128380E3078220070A53C /* stl_vector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_vector.h";
+		sourceTree = "<absolute>";
+	};
+	C42128400E3078220070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42128410E3078220070A53C /* stl_vector.h */;
+		name = "stl_vector.h: 510";
+		rLen = 0;
+		rLoc = 18022;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 17639;
+	};
+	C42128410E3078220070A53C /* stl_vector.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stl_vector.h;
+		path = "/usr/include/c++/4.0.0/bits/stl_vector.h";
+		sourceTree = "<absolute>";
+	};
+	C42128510E30E3280070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42C99500B86C7A7000F6E23 /* ntuple.h */;
+		name = "ntuple.h: 579";
+		rLen = 0;
+		rLoc = 14381;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42128520E30E3280070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42128530E30E3280070A53C /* polyhedron.h */;
+		name = "polyhedron.h: 2215";
+		rLen = 0;
+		rLoc = 77547;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42128530E30E3280070A53C /* polyhedron.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = polyhedron.h;
+		path = /Users/snapp/src/lsm/active/trunk/include/Test/polyhedronTest/../../polyhedron.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1512, 30954}}";
+			sepNavSelRange = "{77325, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	C42128D10E315A750070A53C /* polyhedron.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = polyhedron.h;
+		path = /Users/snapp/src/lsm/active/trunk/include/Test/polyhedronTest/../../polyhedron.h;
+		sourceTree = "<absolute>";
+	};
+	C42128F60E33F8810070A53C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C42128D10E315A750070A53C /* polyhedron.h */;
+		name = "polyhedron.h: 2252";
+		rLen = 0;
+		rLoc = 78354;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C42C99500B86C7A7000F6E23 /* ntuple.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1513, 8246}}";
+			sepNavSelRange = "{14381, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	C42C9BC70B89240C000F6E23 /* convexHull */ = {
+		activeExec = 0;
+		executables = (
+			C42C9BC90B89240D000F6E23 /* convexHull */,
+		);
+	};
+	C42C9BC90B89240D000F6E23 /* convexHull */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = convexHull;
+		sourceDirectories = (
+		);
+	};
+	C469B0620E47EECE00050DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C469B0630E47EECE00050DA5 /* polyhedron.h */;
+		name = "polyhedron.h: 2236";
+		rLen = 0;
+		rLoc = 77325;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	C469B0630E47EECE00050DA5 /* polyhedron.h */ = {
+		isa = PBXFileReference;
+		name = polyhedron.h;
+		path = /Users/snapp/src/lsm/active/trunk/include/Test/polyhedronTest/../../polyhedron.h;
+		sourceTree = "<absolute>";
+	};
+	C4DF81000AFA92B500BAF0BD /* polyhedronTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = polyhedronTest;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C4DF810B0AFA92D600BAF0BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	C4DF810C0AFA92D600BAF0BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C4DF810D0AFA930100BAF0BD /* main.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1719, 2758}}";
+			sepNavSelRange = "{1667, 0}";
+			sepNavVisRange = "{4984, 861}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+		};
+	};
+}

@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C480DC990DA133BE00190938 /* lsm.cc in Sources */ = {isa = PBXBuildFile; fileRef = C480DC940DA133BE00190938 /* lsm.cc */; };
+		C480DC9A0DA133BE00190938 /* lsm.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DC950DA133BE00190938 /* lsm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C480DC9B0DA133BE00190938 /* lsmVoxelImage.cc in Sources */ = {isa = PBXBuildFile; fileRef = C480DC960DA133BE00190938 /* lsmVoxelImage.cc */; };
+		C480DC9C0DA133BE00190938 /* lsmVoxelImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DC970DA133BE00190938 /* lsmVoxelImage.h */; };
+		C480DCAC0DA1346700190938 /* env.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DCA90DA1346700190938 /* env.h */; };
+		C480DCAD0DA1346700190938 /* grayImage3d.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DCAA0DA1346700190938 /* grayImage3d.h */; };
+		C480DCAE0DA1346700190938 /* voxelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DCAB0DA1346700190938 /* voxelArray.h */; };
+		C480DCB00DA134F700190938 /* tiff.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DCAF0DA134F700190938 /* tiff.h */; };
+		C480DCC60DA1399A00190938 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C480DCC40DA1399A00190938 /* GLUT.framework */; };
+		C480DCC70DA1399A00190938 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C480DCC50DA1399A00190938 /* OpenGL.framework */; };
+		C480DDB10DA13AE400190938 /* voxelImage.h in Headers */ = {isa = PBXBuildFile; fileRef = C480DDB00DA13AE400190938 /* voxelImage.h */; };
+		C480DDBE0DA143A300190938 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C480DC980DA133BE00190938 /* main.cc */; };
+		C480DDBF0DA1444500190938 /* liblsm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC09D05546B4700DB518D /* liblsm.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5073E0C609E734A800EC74B6 /* liblsmProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = liblsmProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* liblsmTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = liblsmTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* liblsmPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liblsmPriv.h; sourceTree = "<group>"; };
+		C480DC940DA133BE00190938 /* lsm.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lsm.cc; sourceTree = "<group>"; };
+		C480DC950DA133BE00190938 /* lsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lsm.h; sourceTree = "<group>"; };
+		C480DC960DA133BE00190938 /* lsmVoxelImage.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lsmVoxelImage.cc; sourceTree = "<group>"; };
+		C480DC970DA133BE00190938 /* lsmVoxelImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lsmVoxelImage.h; sourceTree = "<group>"; };
+		C480DC980DA133BE00190938 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		C480DCA90DA1346700190938 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = env.h; path = ../include/env.h; sourceTree = SOURCE_ROOT; };
+		C480DCAA0DA1346700190938 /* grayImage3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = grayImage3d.h; path = ../include/grayImage3d.h; sourceTree = SOURCE_ROOT; };
+		C480DCAB0DA1346700190938 /* voxelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voxelArray.h; path = ../include/voxelArray.h; sourceTree = SOURCE_ROOT; };
+		C480DCAF0DA134F700190938 /* tiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = /sw/include/tiff.h; sourceTree = "<absolute>"; };
+		C480DCC40DA1399A00190938 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
+		C480DCC50DA1399A00190938 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		C480DCED0DA13A4000190938 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = "libstdc++.6.dylib"; path = "SDKs/MacOSX10.5.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = DEVELOPER_DIR; };
+		C480DDB00DA13AE400190938 /* voxelImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = voxelImage.h; path = ../include/voxelImage.h; sourceTree = SOURCE_ROOT; };
+		C480DDB90DA1437600190938 /* liblsmTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = liblsmTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC09D05546B4700DB518D /* liblsm.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblsm.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C480DDB70DA1437600190938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480DDBF0DA1444500190938 /* liblsm.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480DCC60DA1399A00190938 /* GLUT.framework in Frameworks */,
+				C480DCC70DA1399A00190938 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* liblsm.dylib */,
+				C480DDB90DA1437600190938 /* liblsmTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* liblsm */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = liblsm;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C480DCED0DA13A4000190938 /* libstdc++.6.dylib */,
+				C480DCC40DA1399A00190938 /* GLUT.framework */,
+				C480DCC50DA1399A00190938 /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C480DCA90DA1346700190938 /* env.h */,
+				C480DCAA0DA1346700190938 /* grayImage3d.h */,
+				50B2938909F016FC00694E55 /* liblsmPriv.h */,
+				C480DC940DA133BE00190938 /* lsm.cc */,
+				C480DC950DA133BE00190938 /* lsm.h */,
+				C480DC960DA133BE00190938 /* lsmVoxelImage.cc */,
+				C480DC970DA133BE00190938 /* lsmVoxelImage.h */,
+				C480DC980DA133BE00190938 /* main.cc */,
+				C480DCAF0DA134F700190938 /* tiff.h */,
+				C480DCAB0DA1346700190938 /* voxelArray.h */,
+				C480DDB00DA13AE400190938 /* voxelImage.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* liblsmProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* liblsmTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480DC9A0DA133BE00190938 /* lsm.h in Headers */,
+				C480DC9C0DA133BE00190938 /* lsmVoxelImage.h in Headers */,
+				C480DCAC0DA1346700190938 /* env.h in Headers */,
+				C480DCAD0DA1346700190938 /* grayImage3d.h in Headers */,
+				C480DCAE0DA1346700190938 /* voxelArray.h in Headers */,
+				C480DCB00DA134F700190938 /* tiff.h in Headers */,
+				C480DDB10DA13AE400190938 /* voxelImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C480DDB80DA1437600190938 /* liblsmTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C480DDBD0DA1439500190938 /* Build configuration list for PBXNativeTarget "liblsmTest" */;
+			buildPhases = (
+				C480DDB60DA1437600190938 /* Sources */,
+				C480DDB70DA1437600190938 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liblsmTest;
+			productName = liblsmTest;
+			productReference = C480DDB90DA1437600190938 /* liblsmTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		D2AAC09C05546B4700DB518D /* liblsm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "liblsm" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liblsm;
+			productName = libliblsm;
+			productReference = D2AAC09D05546B4700DB518D /* liblsm.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "liblsm" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* liblsm */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* liblsm */,
+				C480DDB80DA1437600190938 /* liblsmTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C480DDB60DA1437600190938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480DDBE0DA143A300190938 /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C480DC990DA133BE00190938 /* lsm.cc in Sources */,
+				C480DC9B0DA133BE00190938 /* lsmVoxelImage.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* liblsmTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/**",
+				);
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=10",
+					mac_osx,
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/usr/local/include/**",
+					"/sw/include/**",
+				);
+				INSTALL_PATH = /Users/snapp/build/lib;
+				PRIVATE_HEADERS_FOLDER_PATH = /Users/snapp/build/include;
+				PRODUCT_NAME = liblsm;
+				PUBLIC_HEADERS_FOLDER_PATH = /Users/snapp/build/include;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* liblsmTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = max_osx;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/sw/include/**",
+					"/usr/local/include/**",
+				);
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				PRIVATE_HEADERS_FOLDER_PATH = /include/private;
+				PRODUCT_NAME = liblsm;
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* liblsmProj.xcconfig */;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* liblsmProj.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		C4129E070DEEF632002F97E4 /* Release (MacOS 10.4) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* liblsmProj.xcconfig */;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = "Release (MacOS 10.4)";
+		};
+		C4129E080DEEF632002F97E4 /* Release (MacOS 10.4) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* liblsmTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/**",
+				);
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/**",
+					"/usr/local/include/**",
+					"/sw/include/**",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRIVATE_HEADERS_FOLDER_PATH = /Users/snapp/build/include;
+				PRODUCT_NAME = liblsm;
+				PUBLIC_HEADERS_FOLDER_PATH = /Users/snapp/build/include;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				ZERO_LINK = YES;
+			};
+			name = "Release (MacOS 10.4)";
+		};
+		C4129E090DEEF632002F97E4 /* Release (MacOS 10.4) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=100",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+					"_GLIBCXX_DEBUG=1\n_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "~/xcode/Debug";
+				PREBINDING = NO;
+				PRODUCT_NAME = liblsmTest;
+				ZERO_LINK = YES;
+			};
+			name = "Release (MacOS 10.4)";
+		};
+		C480DDBB0DA1437700190938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_CHAR_IS_UNSIGNED_CHAR = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=100",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+					"_GLIBCXX_DEBUG=1\n_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = "~/xcode/Debug";
+				PREBINDING = NO;
+				PRODUCT_NAME = liblsmTest;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C480DDBC0DA1437700190938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = liblsmTest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "liblsm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				C4129E080DEEF632002F97E4 /* Release (MacOS 10.4) */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "liblsm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				C4129E070DEEF632002F97E4 /* Release (MacOS 10.4) */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C480DDBD0DA1439500190938 /* Build configuration list for PBXNativeTarget "liblsmTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C480DDBB0DA1437700190938 /* Debug */,
+				C4129E090DEEF632002F97E4 /* Release (MacOS 10.4) */,
+				C480DDBC0DA1437700190938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

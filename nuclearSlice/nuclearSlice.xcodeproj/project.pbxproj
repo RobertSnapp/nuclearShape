@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* nuclearSlice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* nuclearSlice.1 */; };
+		C4229CD50D8E88FE00F43FE7 /* pngImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4229CD40D8E88FE00F43FE7 /* pngImage.h */; };
+		C4933AC50C5FAFBD00896AF1 /* graphicalInterface.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4933AC40C5FAFBD00896AF1 /* graphicalInterface.cc */; };
+		C4A1E7FC0DE5271E00BA1383 /* liblsm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A1E7FB0DE5271E00BA1383 /* liblsm.dylib */; };
+		C4C9D7100C47F9F50035D6D5 /* lsmVoxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D70F0C47F9F50035D6D5 /* lsmVoxelImage.h */; };
+		C4C9D7180C47FA2D0035D6D5 /* convexHull2d.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7110C47FA2D0035D6D5 /* convexHull2d.h */; };
+		C4C9D7190C47FA2D0035D6D5 /* env.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7120C47FA2D0035D6D5 /* env.h */; };
+		C4C9D71A0C47FA2D0035D6D5 /* grayImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7130C47FA2D0035D6D5 /* grayImage.h */; };
+		C4C9D71B0C47FA2D0035D6D5 /* pixelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7140C47FA2D0035D6D5 /* pixelArray.h */; };
+		C4C9D71C0C47FA2D0035D6D5 /* polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7150C47FA2D0035D6D5 /* polygon.h */; };
+		C4C9D71D0C47FA2D0035D6D5 /* voxelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7160C47FA2D0035D6D5 /* voxelArray.h */; };
+		C4C9D71E0C47FA2D0035D6D5 /* voxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7170C47FA2D0035D6D5 /* voxelImage.h */; };
+		C4C9D7200C47FA420035D6D5 /* binaryImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D71F0C47FA420035D6D5 /* binaryImage.h */; };
+		C4C9D7240C47FA7B0035D6D5 /* lsm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7230C47FA7B0035D6D5 /* lsm.h */; };
+		C4C9D7260C47FA960035D6D5 /* ntuple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D7250C47FA960035D6D5 /* ntuple.h */; };
+		C4C9D7550C47FDB50035D6D5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C9D7540C47FDB50035D6D5 /* GLUT.framework */; };
+		C4C9D7C40C4AA3E80035D6D5 /* cmdline.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D7C30C4AA3E70035D6D5 /* cmdline.cc */; };
+		C4C9D8190C4ABFDE0035D6D5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C9D8180C4ABFDE0035D6D5 /* OpenGL.framework */; };
+		C4C9D8A40C4D53790035D6D5 /* components.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D8A00C4D53780035D6D5 /* components.cc */; };
+		C4C9D91D0C4E88AB0035D6D5 /* project.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4C9D91C0C4E88AB0035D6D5 /* project.h */; };
+		C4C9DCDD0C56E7E00035D6D5 /* morphology.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4C9DCDC0C56E7E00035D6D5 /* morphology.cc */; };
+		C4DF810E0AFA930100BAF0BD /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4DF810D0AFA930100BAF0BD /* main.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* nuclearSlice.1 in CopyFiles */,
+				C4C9D7100C47F9F50035D6D5 /* lsmVoxelImage.h in CopyFiles */,
+				C4C9D7180C47FA2D0035D6D5 /* convexHull2d.h in CopyFiles */,
+				C4C9D7190C47FA2D0035D6D5 /* env.h in CopyFiles */,
+				C4C9D71A0C47FA2D0035D6D5 /* grayImage.h in CopyFiles */,
+				C4C9D71B0C47FA2D0035D6D5 /* pixelArray.h in CopyFiles */,
+				C4C9D71C0C47FA2D0035D6D5 /* polygon.h in CopyFiles */,
+				C4C9D71D0C47FA2D0035D6D5 /* voxelArray.h in CopyFiles */,
+				C4C9D71E0C47FA2D0035D6D5 /* voxelImage.h in CopyFiles */,
+				C4C9D7200C47FA420035D6D5 /* binaryImage.h in CopyFiles */,
+				C4C9D7240C47FA7B0035D6D5 /* lsm.h in CopyFiles */,
+				C4C9D7260C47FA960035D6D5 /* ntuple.h in CopyFiles */,
+				C4C9D91D0C4E88AB0035D6D5 /* project.h in CopyFiles */,
+				C4229CD50D8E88FE00F43FE7 /* pngImage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* nuclearSlice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nuclearSlice; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4229CD40D8E88FE00F43FE7 /* pngImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = pngImage.h; path = ../include/pngImage.h; sourceTree = SOURCE_ROOT; };
+		C42AC1CD0DDD5581009D4148 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = "libstdc++.6.dylib"; path = "SDKs/MacOSX10.5.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = DEVELOPER_DIR; };
+		C4933AC40C5FAFBD00896AF1 /* graphicalInterface.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = graphicalInterface.cc; sourceTree = "<group>"; };
+		C4A1E7FB0DE5271E00BA1383 /* liblsm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblsm.dylib; path = /Users/snapp/build/xcode/Release/liblsm.dylib; sourceTree = "<absolute>"; };
+		C4C9D70F0C47F9F50035D6D5 /* lsmVoxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsmVoxelImage.h; path = ../liblsm/lsmVoxelImage.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7110C47FA2D0035D6D5 /* convexHull2d.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = convexHull2d.h; path = ../include/convexHull2d.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7120C47FA2D0035D6D5 /* env.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = env.h; path = ../include/env.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7130C47FA2D0035D6D5 /* grayImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = grayImage.h; path = ../include/grayImage.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7140C47FA2D0035D6D5 /* pixelArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = pixelArray.h; path = ../include/pixelArray.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7150C47FA2D0035D6D5 /* polygon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = polygon.h; path = ../include/polygon.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7160C47FA2D0035D6D5 /* voxelArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelArray.h; path = ../include/voxelArray.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7170C47FA2D0035D6D5 /* voxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelImage.h; path = ../include/voxelImage.h; sourceTree = SOURCE_ROOT; };
+		C4C9D71F0C47FA420035D6D5 /* binaryImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = binaryImage.h; path = ../include/binaryImage.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7230C47FA7B0035D6D5 /* lsm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsm.h; path = ../liblsm/lsm.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7250C47FA960035D6D5 /* ntuple.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ntuple.h; path = ../include/ntuple.h; sourceTree = SOURCE_ROOT; };
+		C4C9D7540C47FDB50035D6D5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = DEVELOPER_DIR; };
+		C4C9D7C30C4AA3E70035D6D5 /* cmdline.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = cmdline.cc; sourceTree = "<group>"; };
+		C4C9D8180C4ABFDE0035D6D5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		C4C9D8A00C4D53780035D6D5 /* components.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = components.cc; sourceTree = "<group>"; };
+		C4C9D91C0C4E88AB0035D6D5 /* project.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = project.h; sourceTree = "<group>"; };
+		C4C9DCDC0C56E7E00035D6D5 /* morphology.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = morphology.cc; sourceTree = "<group>"; };
+		C4DF810D0AFA930100BAF0BD /* main.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		C6859E8B029090EE04C91782 /* nuclearSlice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nuclearSlice.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C9D7550C47FDB50035D6D5 /* GLUT.framework in Frameworks */,
+				C4C9D8190C4ABFDE0035D6D5 /* OpenGL.framework in Frameworks */,
+				C4A1E7FC0DE5271E00BA1383 /* liblsm.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C42AC1CD0DDD5581009D4148 /* libstdc++.6.dylib */,
+				C4A1E7FB0DE5271E00BA1383 /* liblsm.dylib */,
+				C4C9D8180C4ABFDE0035D6D5 /* OpenGL.framework */,
+				C4C9D7540C47FDB50035D6D5 /* GLUT.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* nuclearSlice */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = nuclearSlice;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C4933AC40C5FAFBD00896AF1 /* graphicalInterface.cc */,
+				C4C9DCDC0C56E7E00035D6D5 /* morphology.cc */,
+				C4C9D91C0C4E88AB0035D6D5 /* project.h */,
+				C4C9D71F0C47FA420035D6D5 /* binaryImage.h */,
+				C4C9D8A00C4D53780035D6D5 /* components.cc */,
+				C4C9D7C30C4AA3E70035D6D5 /* cmdline.cc */,
+				C4C9D7250C47FA960035D6D5 /* ntuple.h */,
+				C4C9D7230C47FA7B0035D6D5 /* lsm.h */,
+				C4C9D7110C47FA2D0035D6D5 /* convexHull2d.h */,
+				C4C9D7120C47FA2D0035D6D5 /* env.h */,
+				C4C9D7130C47FA2D0035D6D5 /* grayImage.h */,
+				C4C9D7140C47FA2D0035D6D5 /* pixelArray.h */,
+				C4229CD40D8E88FE00F43FE7 /* pngImage.h */,
+				C4C9D7150C47FA2D0035D6D5 /* polygon.h */,
+				C4C9D7160C47FA2D0035D6D5 /* voxelArray.h */,
+				C4C9D7170C47FA2D0035D6D5 /* voxelImage.h */,
+				C4C9D70F0C47F9F50035D6D5 /* lsmVoxelImage.h */,
+				C4DF810D0AFA930100BAF0BD /* main.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* nuclearSlice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* nuclearSlice.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* nuclearSlice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "nuclearSlice" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nuclearSlice;
+			productInstallPath = "$(HOME)/bin";
+			productName = nuclearSlice;
+			productReference = 8DD76F6C0486A84900D96B5E /* nuclearSlice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "nuclearSlice" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* nuclearSlice */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* nuclearSlice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DF810E0AFA930100BAF0BD /* main.cc in Sources */,
+				C4C9D7C40C4AA3E80035D6D5 /* cmdline.cc in Sources */,
+				C4C9D8A40C4D53790035D6D5 /* components.cc in Sources */,
+				C4C9DCDD0C56E7E00035D6D5 /* morphology.cc in Sources */,
+				C4933AC50C5FAFBD00896AF1 /* graphicalInterface.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4129E0E0DEEF9F1002F97E4 /* Release (MacOS 10.4) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/**";
+				GCC_PREPROCESSOR_DEFINITIONS = mac_osx;
+				HEADER_SEARCH_PATHS = /sw/include;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = "Release (MacOS 10.4)";
+		};
+		C4129E0F0DEEF9F1002F97E4 /* Release (MacOS 10.4) */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					/sw/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"\"$(SRCROOT)/../../../../build/xcode/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Development\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../../xcode/Deployment\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = nuclearSlice;
+				ZERO_LINK = NO;
+			};
+			name = "Release (MacOS 10.4)";
+		};
+		C4DF81040AFA92D600BAF0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/**";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					mac_osx,
+					"DEBUG=3",
+				);
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					/usr/local/include,
+					"/sw/include/**",
+				);
+				INSTALL_PATH = "$(HOME)/build/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/usr/lib",
+					/Users/snapp/build/lib,
+					/Users/snapp/build/xcode,
+					"\"$(SRCROOT)/../../../../build/xcode/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Debug\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../../xcode/Deployment\"";
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = nuclearSlice;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				STRIP_STYLE = debugging;
+				USER_HEADER_SEARCH_PATHS = /Users/snapp/build/include;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C4DF81050AFA92D600BAF0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/include,
+					/sw/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"\"$(SRCROOT)/../../../../build/xcode/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Development\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../../xcode/Deployment\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = nuclearSlice;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C4DF81060AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"\"$(SRCROOT)/../../../../build/xcode/Debug\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Development\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../../../../xcode/Deployment\"";
+				PRODUCT_NAME = nuclearSlice;
+			};
+			name = Default;
+		};
+		C4DF81080AFA92D600BAF0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/**",
+					"/sw/include/**",
+				);
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C4DF81090AFA92D600BAF0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = mac_osx;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		C4DF810A0AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "nuclearSlice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81040AFA92D600BAF0BD /* Debug */,
+				C4DF81050AFA92D600BAF0BD /* Release */,
+				C4129E0F0DEEF9F1002F97E4 /* Release (MacOS 10.4) */,
+				C4DF81060AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "nuclearSlice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81080AFA92D600BAF0BD /* Debug */,
+				C4DF81090AFA92D600BAF0BD /* Release */,
+				C4129E0E0DEEF9F1002F97E4 /* Release (MacOS 10.4) */,
+				C4DF810A0AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

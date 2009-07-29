@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* polygonTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* polygonTest.1 */; };
+		C448A34B0C44647400D000A1 /* polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C448A34A0C44647400D000A1 /* polygon.h */; };
+		C448A34D0C44648C00D000A1 /* ntuple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C448A34C0C44648C00D000A1 /* ntuple.h */; };
+		C4DF810E0AFA930100BAF0BD /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4DF810D0AFA930100BAF0BD /* main.cc */; };
+		C4DF81100AFA938C00BAF0BD /* libstdc++.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* polygonTest.1 in CopyFiles */,
+				C4DF81100AFA938C00BAF0BD /* libstdc++.dylib in CopyFiles */,
+				C448A34B0C44647400D000A1 /* polygon.h in CopyFiles */,
+				C448A34D0C44648C00D000A1 /* ntuple.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* polygonTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = polygonTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C448A34A0C44647400D000A1 /* polygon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = polygon.h; path = ../../polygon.h; sourceTree = SOURCE_ROOT; };
+		C448A34C0C44648C00D000A1 /* ntuple.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ntuple.h; path = ../../ntuple.h; sourceTree = SOURCE_ROOT; };
+		C4DF810D0AFA930100BAF0BD /* main.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = "libstdc++.dylib"; path = "/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/powerpc-apple-darwin8/4.0.1/libstdc++.dylib"; sourceTree = "<absolute>"; };
+		C6859E8B029090EE04C91782 /* polygonTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = polygonTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* polygonTest */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = polygonTest;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C448A34A0C44647400D000A1 /* polygon.h */,
+				C4DF810D0AFA930100BAF0BD /* main.cc */,
+				C448A34C0C44648C00D000A1 /* ntuple.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* polygonTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* polygonTest.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* polygonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "polygonTest" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polygonTest;
+			productInstallPath = "$(HOME)/bin";
+			productName = polygonTest;
+			productReference = 8DD76F6C0486A84900D96B5E /* polygonTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "polygonTest" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* polygonTest */;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* polygonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DF810E0AFA930100BAF0BD /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4DF81040AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = polygonTest;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		C4DF81050AFA92D600BAF0BD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = polygonTest;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		C4DF81060AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = polygonTest;
+			};
+			name = Default;
+		};
+		C4DF81080AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+			};
+			name = Development;
+		};
+		C4DF81090AFA92D600BAF0BD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = mac_osx;
+			};
+			name = Deployment;
+		};
+		C4DF810A0AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "polygonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81040AFA92D600BAF0BD /* Development */,
+				C4DF81050AFA92D600BAF0BD /* Deployment */,
+				C4DF81060AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "polygonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81080AFA92D600BAF0BD /* Development */,
+				C4DF81090AFA92D600BAF0BD /* Deployment */,
+				C4DF810A0AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

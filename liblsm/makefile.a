@@ -1,0 +1,29 @@
+# makefile for project liblsm
+# Created by Robert R. Snapp
+# Copyright (c) 2008
+
+
+
+HEADERS = lsm.h lsmVoxelImage.h
+SOURCE = lsm.cc lsmVoxelImage.cc
+OBJECTS = lsm.o lsmVoxelImage.o
+INCLUDE_LSM = ../include
+CFLAGS =  -I$(INCLUDE_LSM) -I/usr/local/include -g -Dmac_osx
+
+LIB = liblsm.a
+CPP = g++
+
+lsm.o : lsm.cc lsm.h
+	$(CPP) $(CFLAGS) -c lsm.cc
+
+lsmVoxelImage.o : lsmVoxelImage.cc lsm.h
+	$(CPP) -c $(CFLAGS) lsmVoxelImage.cc
+
+liblsm.a : $(OBJECTS)
+	ar r $(LIB) $(OBJECTS)
+	ranlib $(LIB)
+
+clean:
+	rm $(OBJECTS) $(LIB)
+
+all: liblsm.a

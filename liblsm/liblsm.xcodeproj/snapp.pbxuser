@@ -1,0 +1,197 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C480DDBA0DA1437600190938 /* liblsmTest */;
+		activeTarget = D2AAC09C05546B4700DB518D /* liblsm */;
+		addToTargets = (
+			D2AAC09C05546B4700DB518D /* liblsm */,
+		);
+		codeSenseManager = C480DC910DA132DF00190938 /* Code sense */;
+		executables = (
+			C480DDBA0DA1437600190938 /* liblsmTest */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1355,
+					45.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					537,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					138,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					609,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 239508658;
+			PBXWorkspaceStateSaveDate = 239508658;
+		};
+		perUserProjectItems = {
+			C469B0880E4A9A3000050DA5 /* PBXTextBookmark */ = C469B0880E4A9A3000050DA5 /* PBXTextBookmark */;
+			C469B0890E4A9A3000050DA5 /* PBXTextBookmark */ = C469B0890E4A9A3000050DA5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C480DC900DA132DF00190938 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C469B0880E4A9A3000050DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: implicit conversion shortens 64-bit value into a 32-bit value";
+		fRef = C480DDB00DA13AE400190938 /* voxelImage.h */;
+		rLen = 1;
+		rLoc = 161;
+		rType = 1;
+	};
+	C469B0890E4A9A3000050DA5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C480DDB00DA13AE400190938 /* voxelImage.h */;
+		name = "voxelImage.h: 306";
+		rLen = 0;
+		rLoc = 9627;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 4782;
+	};
+	C480DC900DA132DF00190938 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = lsmSvn;
+		};
+	};
+	C480DC910DA132DF00190938 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C480DC940DA133BE00190938 /* lsm.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 10542}}";
+			sepNavSelRange = "{25632, 0}";
+			sepNavVisRange = "{8380, 1213}";
+		};
+	};
+	C480DC970DA133BE00190938 /* lsmVoxelImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 952}}";
+			sepNavSelRange = "{1457, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	C480DC980DA133BE00190938 /* main.cc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1119, 2310}}";
+			sepNavSelRange = "{4026, 0}";
+			sepNavVisRange = "{3208, 882}";
+		};
+	};
+	C480DDB00DA13AE400190938 /* voxelImage.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {942, 4102}}";
+			sepNavSelRange = "{9627, 0}";
+			sepNavVisRange = "{4782, 265}";
+			sepNavWindowFrame = "{{38, 224}, {1148, 928}}";
+		};
+	};
+	C480DDB80DA1437600190938 /* liblsmTest */ = {
+		activeExec = 0;
+		executables = (
+			C480DDBA0DA1437600190938 /* liblsmTest */,
+		);
+	};
+	C480DDBA0DA1437600190938 /* liblsmTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			/Users/snapp/data/cellNuclei/lsmData/m568_1aaa.lsm,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = liblsmTest;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	D2AAC09C05546B4700DB518D /* liblsm */ = {
+		activeExec = 0;
+	};
+}

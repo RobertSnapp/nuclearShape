@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* lsmViewer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* lsmViewer.1 */; };
+		C455B2210BE3D10900B87316 /* lsm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455B2200BE3D10900B87316 /* lsm.h */; };
+		C455B3370BE519D400B87316 /* lsmVoxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455B3360BE519D400B87316 /* lsmVoxelImage.h */; };
+		C455B3390BE519EE00B87316 /* voxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455B3380BE519EE00B87316 /* voxelImage.h */; };
+		C455B33B0BE51A4C00B87316 /* voxelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455B33A0BE51A4C00B87316 /* voxelArray.h */; };
+		C45BB74C0B5470B0004674E9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45BB74B0B5470B0004674E9 /* GLUT.framework */; };
+		C45BB7500B5470E7004674E9 /* liblsm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C45BB74F0B5470E7004674E9 /* liblsm.dylib */; };
+		C45BB75A0B5471C0004674E9 /* env.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C45BB7540B5471C0004674E9 /* env.h */; };
+		C4DF810E0AFA930100BAF0BD /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4DF810D0AFA930100BAF0BD /* main.cc */; };
+		C4DF81100AFA938C00BAF0BD /* libstdc++.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */; };
+		C4F12E370BE9583700858DC1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F12E360BE9583700858DC1 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* lsmViewer.1 in CopyFiles */,
+				C4DF81100AFA938C00BAF0BD /* libstdc++.dylib in CopyFiles */,
+				C45BB75A0B5471C0004674E9 /* env.h in CopyFiles */,
+				C455B2210BE3D10900B87316 /* lsm.h in CopyFiles */,
+				C455B3370BE519D400B87316 /* lsmVoxelImage.h in CopyFiles */,
+				C455B3390BE519EE00B87316 /* voxelImage.h in CopyFiles */,
+				C455B33B0BE51A4C00B87316 /* voxelArray.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* lsmViewer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lsmViewer; sourceTree = BUILT_PRODUCTS_DIR; };
+		C455B2200BE3D10900B87316 /* lsm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsm.h; path = ../liblsm/lsm.h; sourceTree = SOURCE_ROOT; };
+		C455B3360BE519D400B87316 /* lsmVoxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsmVoxelImage.h; path = ../liblsm/lsmVoxelImage.h; sourceTree = SOURCE_ROOT; };
+		C455B3380BE519EE00B87316 /* voxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelImage.h; path = ../include/voxelImage.h; sourceTree = SOURCE_ROOT; };
+		C455B33A0BE51A4C00B87316 /* voxelArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelArray.h; path = ../include/voxelArray.h; sourceTree = SOURCE_ROOT; };
+		C45BB74B0B5470B0004674E9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		C45BB74F0B5470E7004674E9 /* liblsm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblsm.dylib; path = /Users/snapp/xcode/Development/liblsm.dylib; sourceTree = "<absolute>"; };
+		C45BB7540B5471C0004674E9 /* env.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = env.h; path = ../include/env.h; sourceTree = SOURCE_ROOT; };
+		C4DF810D0AFA930100BAF0BD /* main.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = "libstdc++.dylib"; path = "/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/powerpc-apple-darwin8/4.0.1/libstdc++.dylib"; sourceTree = "<absolute>"; };
+		C4F12E360BE9583700858DC1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		C6859E8B029090EE04C91782 /* lsmViewer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lsmViewer.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45BB74C0B5470B0004674E9 /* GLUT.framework in Frameworks */,
+				C45BB7500B5470E7004674E9 /* liblsm.dylib in Frameworks */,
+				C4F12E370BE9583700858DC1 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C45BB74F0B5470E7004674E9 /* liblsm.dylib */,
+				C45BB74B0B5470B0004674E9 /* GLUT.framework */,
+				C4F12E360BE9583700858DC1 /* OpenGL.framework */,
+				C4DF810F0AFA938C00BAF0BD /* libstdc++.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* lsmViewer */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = lsmViewer;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C455B33A0BE51A4C00B87316 /* voxelArray.h */,
+				C455B3380BE519EE00B87316 /* voxelImage.h */,
+				C455B3360BE519D400B87316 /* lsmVoxelImage.h */,
+				C45BB7540B5471C0004674E9 /* env.h */,
+				C455B2200BE3D10900B87316 /* lsm.h */,
+				C4DF810D0AFA930100BAF0BD /* main.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* lsmViewer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* lsmViewer.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* lsmViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "lsmViewer" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lsmViewer;
+			productInstallPath = "$(HOME)/bin";
+			productName = lsmViewer;
+			productReference = 8DD76F6C0486A84900D96B5E /* lsmViewer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "lsmViewer" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* lsmViewer */;
+			projectDirPath = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* lsmViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DF810E0AFA930100BAF0BD /* main.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4DF81040AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Users/snapp/xcode/Development/;
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../../xcode/Development\"";
+				PRODUCT_NAME = lsmViewer;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		C4DF81050AFA92D600BAF0BD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../../xcode/Development\"";
+				PRODUCT_NAME = lsmViewer;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		C4DF81060AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../../xcode/Development\"";
+				PRODUCT_NAME = lsmViewer;
+			};
+			name = Default;
+		};
+		C4DF81080AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				PRODUCT_NAME = lsmViewer;
+			};
+			name = Development;
+		};
+		C4DF81090AFA92D600BAF0BD /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				PRODUCT_NAME = lsmViewer;
+			};
+			name = Deployment;
+		};
+		C4DF810A0AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				PRODUCT_NAME = lsmViewer;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "lsmViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81040AFA92D600BAF0BD /* Development */,
+				C4DF81050AFA92D600BAF0BD /* Deployment */,
+				C4DF81060AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "lsmViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81080AFA92D600BAF0BD /* Development */,
+				C4DF81090AFA92D600BAF0BD /* Deployment */,
+				C4DF810A0AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

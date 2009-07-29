@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* nuclearSurface.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* nuclearSurface.1 */; };
+		C4066CAE0C8F8CEC007469F8 /* cmdline.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4066CAC0C8F8CEC007469F8 /* cmdline.cc */; };
+		C4066CAF0C8F8CED007469F8 /* nuclearSurface.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4066CAD0C8F8CEC007469F8 /* nuclearSurface.h */; };
+		C43B29C10E63AFE60031BD0F /* graphicalInterface.cc in Sources */ = {isa = PBXBuildFile; fileRef = C43B29C00E63AFE60031BD0F /* graphicalInterface.cc */; };
+		C455AF260BDFFC9400B87316 /* imageComponentArray.cc in Sources */ = {isa = PBXBuildFile; fileRef = C455AF200BDFFC9400B87316 /* imageComponentArray.cc */; };
+		C455AF270BDFFC9400B87316 /* imageComponentArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455AF210BDFFC9400B87316 /* imageComponentArray.h */; };
+		C455AF280BDFFC9400B87316 /* imageHistogram.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455AF220BDFFC9400B87316 /* imageHistogram.h */; };
+		C455AF290BDFFC9400B87316 /* lsmFileInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455AF230BDFFC9400B87316 /* lsmFileInfo.h */; };
+		C455AF400BDFFD1F00B87316 /* grayImage3d.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455AF3F0BDFFD1F00B87316 /* grayImage3d.h */; };
+		C455AFCC0BE049B500B87316 /* liblsm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C455AFCB0BE049B500B87316 /* liblsm.dylib */; };
+		C455B1260BE1B8C900B87316 /* lsm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C455B1250BE1B8C900B87316 /* lsm.h */; };
+		C46A59EB0CB09EE20011974C /* morphology.cc in Sources */ = {isa = PBXBuildFile; fileRef = C46A59EA0CB09EE20011974C /* morphology.cc */; };
+		C46A5A120CB0A05F0011974C /* binaryImage3d.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C46A5A110CB0A05F0011974C /* binaryImage3d.h */; };
+		C4BF73E00BD032D5006C8C95 /* convexHull.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4BF73DC0BD032D5006C8C95 /* convexHull.h */; };
+		C4BF73E10BD032D5006C8C95 /* debug.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4BF73DD0BD032D5006C8C95 /* debug.h */; };
+		C4BF73E20BD032D5006C8C95 /* ntuple.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4BF73DE0BD032D5006C8C95 /* ntuple.h */; };
+		C4BF73E30BD032D5006C8C95 /* polyhedron.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4BF73DF0BD032D5006C8C95 /* polyhedron.h */; };
+		C4CED3370B554F9000B9BCA3 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CED3360B554F9000B9BCA3 /* GLUT.framework */; };
+		C4CED3390B554FDE00B9BCA3 /* env.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4CED3380B554FDE00B9BCA3 /* env.h */; };
+		C4DF810E0AFA930100BAF0BD /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = C4DF810D0AFA930100BAF0BD /* main.cc */; };
+		C4DF81100AFA938C00BAF0BD /* libstdc++.6.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4DF810F0AFA938C00BAF0BD /* libstdc++.6.dylib */; };
+		C4F12CAD0BE8DF8800858DC1 /* voxelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4F12CAA0BE8DF8800858DC1 /* voxelArray.h */; };
+		C4F12CAE0BE8DF8800858DC1 /* voxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4F12CAB0BE8DF8800858DC1 /* voxelImage.h */; };
+		C4F12CAF0BE8DF8800858DC1 /* lsmVoxelImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4F12CAC0BE8DF8800858DC1 /* lsmVoxelImage.h */; };
+		C4F12DBE0BE9448C00858DC1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F12DBD0BE9448C00858DC1 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* nuclearSurface.1 in CopyFiles */,
+				C4DF81100AFA938C00BAF0BD /* libstdc++.6.dylib in CopyFiles */,
+				C4CED3390B554FDE00B9BCA3 /* env.h in CopyFiles */,
+				C4BF73E00BD032D5006C8C95 /* convexHull.h in CopyFiles */,
+				C4BF73E10BD032D5006C8C95 /* debug.h in CopyFiles */,
+				C4BF73E20BD032D5006C8C95 /* ntuple.h in CopyFiles */,
+				C4BF73E30BD032D5006C8C95 /* polyhedron.h in CopyFiles */,
+				C455AF270BDFFC9400B87316 /* imageComponentArray.h in CopyFiles */,
+				C455AF280BDFFC9400B87316 /* imageHistogram.h in CopyFiles */,
+				C455AF290BDFFC9400B87316 /* lsmFileInfo.h in CopyFiles */,
+				C455AF400BDFFD1F00B87316 /* grayImage3d.h in CopyFiles */,
+				C455B1260BE1B8C900B87316 /* lsm.h in CopyFiles */,
+				C4F12CAD0BE8DF8800858DC1 /* voxelArray.h in CopyFiles */,
+				C4F12CAE0BE8DF8800858DC1 /* voxelImage.h in CopyFiles */,
+				C4F12CAF0BE8DF8800858DC1 /* lsmVoxelImage.h in CopyFiles */,
+				C4066CAF0C8F8CED007469F8 /* nuclearSurface.h in CopyFiles */,
+				C46A5A120CB0A05F0011974C /* binaryImage3d.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* nuclearSurface */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nuclearSurface; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4066CAC0C8F8CEC007469F8 /* cmdline.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = cmdline.cc; sourceTree = "<group>"; };
+		C4066CAD0C8F8CEC007469F8 /* nuclearSurface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = nuclearSurface.h; sourceTree = "<group>"; };
+		C43B29C00E63AFE60031BD0F /* graphicalInterface.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphicalInterface.cc; sourceTree = "<group>"; };
+		C455AF200BDFFC9400B87316 /* imageComponentArray.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = imageComponentArray.cc; sourceTree = "<group>"; };
+		C455AF210BDFFC9400B87316 /* imageComponentArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = imageComponentArray.h; sourceTree = "<group>"; };
+		C455AF220BDFFC9400B87316 /* imageHistogram.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = imageHistogram.h; sourceTree = "<group>"; };
+		C455AF230BDFFC9400B87316 /* lsmFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = lsmFileInfo.h; sourceTree = "<group>"; };
+		C455AF3F0BDFFD1F00B87316 /* grayImage3d.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = grayImage3d.h; path = ../include/grayImage3d.h; sourceTree = SOURCE_ROOT; };
+		C455AFCB0BE049B500B87316 /* liblsm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblsm.dylib; path = /Users/snapp/build/xcode/Release/liblsm.dylib; sourceTree = "<absolute>"; };
+		C455B1250BE1B8C900B87316 /* lsm.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsm.h; path = /Users/snapp/build/xcode/Release/include/lsm.h; sourceTree = "<absolute>"; };
+		C46A59EA0CB09EE20011974C /* morphology.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = morphology.cc; sourceTree = "<group>"; };
+		C46A5A110CB0A05F0011974C /* binaryImage3d.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = binaryImage3d.h; path = ../include/binaryImage3d.h; sourceTree = SOURCE_ROOT; };
+		C4BF73DC0BD032D5006C8C95 /* convexHull.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = convexHull.h; path = ../include/convexHull.h; sourceTree = SOURCE_ROOT; };
+		C4BF73DD0BD032D5006C8C95 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = debug.h; path = ../include/debug.h; sourceTree = SOURCE_ROOT; };
+		C4BF73DE0BD032D5006C8C95 /* ntuple.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ntuple.h; path = ../include/ntuple.h; sourceTree = SOURCE_ROOT; };
+		C4BF73DF0BD032D5006C8C95 /* polyhedron.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = polyhedron.h; path = ../include/polyhedron.h; sourceTree = SOURCE_ROOT; };
+		C4CED3360B554F9000B9BCA3 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		C4CED3380B554FDE00B9BCA3 /* env.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = env.h; path = ../include/env.h; sourceTree = SOURCE_ROOT; };
+		C4DDC6880E393AA70066B4CC /* tiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tiff.h; path = /sw/include/tiff.h; sourceTree = "<absolute>"; };
+		C4DF810D0AFA930100BAF0BD /* main.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		C4DF810F0AFA938C00BAF0BD /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = "libstdc++.6.dylib"; path = "/Developer/SDKs/MacOSX10.5.sdk/usr/lib/libstdc++.6.dylib"; sourceTree = "<absolute>"; };
+		C4F12CAA0BE8DF8800858DC1 /* voxelArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelArray.h; path = ../include/voxelArray.h; sourceTree = SOURCE_ROOT; };
+		C4F12CAB0BE8DF8800858DC1 /* voxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = voxelImage.h; path = ../include/voxelImage.h; sourceTree = SOURCE_ROOT; };
+		C4F12CAC0BE8DF8800858DC1 /* lsmVoxelImage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = lsmVoxelImage.h; path = /Users/snapp/src/lsm/active/trunk/liblsm/lsmVoxelImage.h; sourceTree = "<absolute>"; };
+		C4F12DBD0BE9448C00858DC1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		C6859E8B029090EE04C91782 /* nuclearSurface.1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nuclearSurface.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CED3370B554F9000B9BCA3 /* GLUT.framework in Frameworks */,
+				C455AFCC0BE049B500B87316 /* liblsm.dylib in Frameworks */,
+				C4F12DBE0BE9448C00858DC1 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C455AFCB0BE049B500B87316 /* liblsm.dylib */,
+				C4CED3360B554F9000B9BCA3 /* GLUT.framework */,
+				C4F12DBD0BE9448C00858DC1 /* OpenGL.framework */,
+				C4DF810F0AFA938C00BAF0BD /* libstdc++.6.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* nuclearSurface */ = {
+			isa = PBXGroup;
+			children = (
+				C43B29C00E63AFE60031BD0F /* graphicalInterface.cc */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				0249A662FF388D9811CA2CEA /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = nuclearSurface;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C46A5A110CB0A05F0011974C /* binaryImage3d.h */,
+				C4DDC6880E393AA70066B4CC /* tiff.h */,
+				C46A59EA0CB09EE20011974C /* morphology.cc */,
+				C455B1250BE1B8C900B87316 /* lsm.h */,
+				C4066CAC0C8F8CEC007469F8 /* cmdline.cc */,
+				C4066CAD0C8F8CEC007469F8 /* nuclearSurface.h */,
+				C455AF200BDFFC9400B87316 /* imageComponentArray.cc */,
+				C455AF3F0BDFFD1F00B87316 /* grayImage3d.h */,
+				C455AF210BDFFC9400B87316 /* imageComponentArray.h */,
+				C455AF220BDFFC9400B87316 /* imageHistogram.h */,
+				C4F12CAA0BE8DF8800858DC1 /* voxelArray.h */,
+				C4F12CAB0BE8DF8800858DC1 /* voxelImage.h */,
+				C4F12CAC0BE8DF8800858DC1 /* lsmVoxelImage.h */,
+				C455AF230BDFFC9400B87316 /* lsmFileInfo.h */,
+				C4CED3380B554FDE00B9BCA3 /* env.h */,
+				C4BF73DC0BD032D5006C8C95 /* convexHull.h */,
+				C4BF73DD0BD032D5006C8C95 /* debug.h */,
+				C4BF73DE0BD032D5006C8C95 /* ntuple.h */,
+				C4BF73DF0BD032D5006C8C95 /* polyhedron.h */,
+				C4DF810D0AFA930100BAF0BD /* main.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* nuclearSurface */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* nuclearSurface.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* nuclearSurface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "nuclearSurface" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nuclearSurface;
+			productInstallPath = "$(HOME)/bin";
+			productName = nuclearSurface;
+			productReference = 8DD76F6C0486A84900D96B5E /* nuclearSurface */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "nuclearSurface" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* nuclearSurface */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* nuclearSurface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DF810E0AFA930100BAF0BD /* main.cc in Sources */,
+				C455AF260BDFFC9400B87316 /* imageComponentArray.cc in Sources */,
+				C4066CAE0C8F8CEC007469F8 /* cmdline.cc in Sources */,
+				C46A59EB0CB09EE20011974C /* morphology.cc in Sources */,
+				C43B29C10E63AFE60031BD0F /* graphicalInterface.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4DF81040AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks;
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_VERSION = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = mac_osx;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "";
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = nuclearSurface;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		C4DF81050AFA92D600BAF0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				HEADER_SEARCH_PATHS = "/Users/snapp/build/include/**";
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = /Users/snapp/build/lib;
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Development\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = nuclearSurface;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C4DF81060AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../xcode/Development\"";
+				PRODUCT_NAME = nuclearSurface;
+			};
+			name = Default;
+		};
+		C4DF81080AFA92D600BAF0BD /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Development;
+		};
+		C4DF81090AFA92D600BAF0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.pbxproj *.pbproj *.xcode .svn *.xcodeproj *.gch *.lproj *.nib";
+				FRAMEWORK_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = mac_osx;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = nuclearSurface;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SHARED_PRECOMPS_DIR = /Library/Caches/com.apple.Xcode.501/SharedPrecompiledHeaders;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VERSION_INFO_BUILDER = snapp;
+			};
+			name = Release;
+		};
+		C4DF810A0AFA92D600BAF0BD /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					mac_osx,
+					"DEBUG=3",
+				);
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4DF81030AFA92D600BAF0BD /* Build configuration list for PBXNativeTarget "nuclearSurface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81040AFA92D600BAF0BD /* Development */,
+				C4DF81050AFA92D600BAF0BD /* Release */,
+				C4DF81060AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		C4DF81070AFA92D600BAF0BD /* Build configuration list for PBXProject "nuclearSurface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4DF81080AFA92D600BAF0BD /* Development */,
+				C4DF81090AFA92D600BAF0BD /* Release */,
+				C4DF810A0AFA92D600BAF0BD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

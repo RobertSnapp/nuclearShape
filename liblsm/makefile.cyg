@@ -1,0 +1,51 @@
+# makefile.cyg for project liblsm under Cygwin 
+# Created by Robert R. Snapp
+# Copyright (c) 2008
+
+INSTALL_LIBDIR = ~/lib
+INSTALL_INCLUDEDIR = ~/include
+INSTALL_BINDIR = ~/bin
+
+HEADERS = lsm.h  lsmVoxelImage.h
+SOURCE =  lsm.cc lsmVoxelImage.cc
+OBJECTS = lsm.o  lsmVoxelImage.o
+INCLUDE_LSM = ../include
+
+GL_LIBS = -L /usr/X11R6/lib -lGL
+GL_INCLUDE = /usr/X11R6/include
+
+CFLAGS = -I.  -I$(INCLUDE_LSM) -I/usr/local/include -I$(GL_INCLUDE) -g 
+
+
+LIB = liblsm.a
+
+CPP = g++
+
+lsm.o : lsm.cc lsm.h
+	$(CPP) $(CFLAGS) -c lsm.cc
+
+lsmVoxelImage.o : lsmVoxelImage.cc lsm.h
+	$(CPP) $(CFLAGS) -c lsmVoxelImage.cc
+
+
+liblsm.a : $(OBJECTS)
+	ar r $(LIB) $(OBJECTS)
+	ranlib $(LIB)
+
+all: $(LIB) liblsmTest
+
+liblsmTest: liblsm.a
+	$(CPP) $(CFLAGS) -o liblsmTest main.cc liblsm.a $(GL_LIBS)
+
+
+clean:
+	rm $(OBJECTS) $(LIB) liblsmTest
+
+
+install: $(LIB) liblsmTest
+	-mkdir $(INSTALL_LIBDIR)
+	-mkdir $(INSTALL_INCLUDEDIR)
+	-mkdir $(INSTALL_BINDIR)
+	install $(LIB) $(INSTALL_LIBDIR)
+	install $(HEADERS) $(INSTALL_INCLUDEDIR)
+	install liblsmTest $(INSTALL_BINDIR)

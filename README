@@ -1,0 +1,17 @@
+The nuclearShape project is collection of programs designed to characterize the shapes and 
+configurations of cell nuclei from stacks of digitized confocal microscope images. The programs
+assume these images are encoded using the Zeiss LSM format. The project is still under development,
+and the software has only been partially tested. Use these programs with caution.
+
+The nuclearSlice application computes the relative concavity of the two-dimensional projection of
+a stack of images. For each projection, a two-dimensional convex hull (the smallest enclosing
+convex polygon) is constructed. The deficit is defined as the area of the region that falls within
+the convex hull, but outside of the nuclear projection. The relative concavity is then defined as
+the ratio of the deficit to the projection area.  This application can be run as a background process,
+in order to analyze a large number of data sets that require minimal user interaction, or as an
+interactive process using a graphical interface.
+
+The nuclearSurface application copmutes the relative concavity of a three-dimensional nuclear
+volume. It currently only runs as a batch process.
+
+These programs were originally created and programmed in C++ by Robert R. Snapp at the University of Vermont.

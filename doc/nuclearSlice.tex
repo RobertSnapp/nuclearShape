@@ -1,0 +1,174 @@
+%%% nuclearSlice.tex --- 
+%% Author: snapp@jeeves.local
+%% Version: $Id: nuclearSlice.tex,v 0.0 2008/06/01 03:14:09 snapp Exp$
+
+\documentclass[10pt]{article}
+\usepackage[width=6.75in]{geometry}
+\usepackage{alltt}
+
+\title{Guide to nuclearSlice, Version 0.1}
+\date{\today}
+
+\author{Robert R. Snapp\\
+Department of Computer Science\\
+University of Vermont\\
+Burlington, VT 05405 U.S.A.\\
+\texttt{snapp@cs.uvm.edu}}
+
+\newcommand{\LSM}{\textsc{lsm}}
+
+\begin{document}
+\maketitle
+%\begin{abstract} \end{abstract}
+
+\setcounter{section}{-1}
+
+\section{Warning}
+The software in the \texttt{nuclearShape} project is still being developed and tested, and is not intended for public release.
+It has been placed in the \texttt{github} repository to facilitate further development.
+More information about this project will appear at \texttt{http://www.cs.uvm.edu/$\sim$snapp/nuclearShape}.
+
+
+\section{Description}
+Program \texttt{nuclearSlice} analyzes the geometry of cell nuclei
+contained in one or more files in Zeiss's \LSM\ format, in either
+an interactive or a batch mode. The program should be invoked from
+a unix shell like the Terminal application in Mac OSX.
+
+Syntax:
+
+\begin{alltt}
+nuclearSlice [options] <filename>
+\end{alltt}
+
+\noindent
+where \texttt{<filename>} is either a path to a single \LSM\ file,
+or a roster of \LSM files, described below. The command line options
+are grouped in several categories. 
+
+\begin{description}
+\item{\tt -b <int>} Sets the band index to the integer argument.
+\item{\tt -c <int>} Sets the column of the subregion to the provided integer argument.
+\item{\tt -d <str>} Sets the directory path for input \LSM\ files.
+\item{\tt -r <int>} Sets the row of the rectangular subregion to the provided integer argument.
+\item{\tt -h <int>} Sets the height (number of rows) of the rectangular subregion to the integer
+argument.
+\item{\tt -l <int>} Sets the layer index to the provided integer argument.
+\item{\tt -o <str>} Prints the output to the file inticated by the argument. If none is provided,
+then the output is directed to \texttt{stdout}.
+\item{\tt -v <int>} Enables verbose mode, for debugging, and sets the message level to the indicated value.
+\item{\tt -w <int>} Sets the width of the rectangular subregion to the indicated value.
+\item{\tt -G} Graphics (i.e., interactive) mode: activates a graphical browser for viewing the images
+contained in the input \LSM\ file or files. (Disbaled by default.)
+\item{\tt -H} Help mode: display the command line syntax.
+\item{\tt -P} Activates projection mode: intensities of all available layers are summed together. (Disbled by default.)
+\end{description}
+
+
+\section{Interactive Mode}
+
+To analyze an \LSM\ file under interactive mode, issue the command with the \texttt{-G} option.
+Thus, to analyze a single file, enter the following command into a terminal shell:
+\begin{center}
+\begin{alltt}
+nuclearSlice -G file.lsm
+\end{alltt}
+\end{center}
+which loads the \LSM\ file named \texttt{file.lsm}, and displays the first layer (layer = 0), in a window.
+
+Alternatively, if one desires to analyze a set of lsm files, then use a text editor (or other means)
+to create a \emph{file roster}, which contains a single \LSM\ file name on each line:
+
+\begin{center}
+\begin{alltt}
+# my file roster.
+# Note that any line that begins with a pound sign (#) is treated as a comment
+# and is ignored.
+file1.lsm
+file2.lsm
+\(\qquad\vdots\)
+file99.lsm
+\end{alltt}
+\end{center}
+
+Additional parameters can be provided for each file in the file roster. Fields should
+be assigned values in columns as shown:
+\begin{center}
+\begin{alltt}
+# filename   col   row     width    height   threshold  
+file1.lsm    128   128      256      256       42       
+file2.lsm    167    89      108      139       35       
+file2.lsm    318   243       98      156       42       
+\(\qquad\vdots\)
+\end{alltt}
+\end{center}
+Note that a file roster is a convenient way to analyze multiple blobs that belong to the same \LSM\ file.
+
+In interactive mode, some of the keys on the keyboard are mapped to perform various functions.
+Normally, one might enable projection mode (by pressing {\tt Shift-P}). Then view the set of pixels
+that have intensities above the current threshold by pressing {\tt F2}. (Note on some systems the function
+keys are mapped to system controls. In this case it may be possible to press {\tt fn-F2}, etc.)
+The threshold can be varied by pressing the up and down arrow keys, or the page-up and page-down keys.
+Once a threshold has been found that adequately fills in the interior of the largest blob, press {\tt m}
+to apply a morphological closure operation. (The latter, fills in any isolated pixels inside the blobs
+that lie below threshold.) Then press {\tt c} to assign colors to the largest components. The largest component
+will be rendered red. The components can be viewed by pressing {\tt F5}. Then press {\tt h} to
+construct the convex hull of the red component.
+
+If one is more interested in a blob that is not the largest one, then one can crop the image around the blob
+of interest using the {\tt r}, {\tt x} keys,
+and the mouse.
+
+\subsection{Keyboard Command Summary}
+
+\begin{description}
+\item{\tt 0} select and display band 0.
+\item{\tt 1} select and display band 1.
+\item{\tt a} prompts the user for an integer roster file offset. The value should be typed  in
+the active terminal shell, followed by a carriage return.
+\item{\tt c} assign a colored label to each connected component.
+\item{\tt Shift-F} enable the user to enter a new filename in the active terminal shell.
+\item{\tt h} construct the convex hull of the largest (red-labeled) component. The ratio of the area enclosed
+by the convex hull to the area contained in the largest component is also computed and displayed.
+\item{\tt i} toggles the visibility of the text information displayed in the image window.
+\item{tt m} applies a morphological closure operation to the thresholded intensities. 
+\item{\tt n} displays the next layer in the current image.
+\item{\tt p} displays the previous layer in the current image.
+\item{\tt Shift-P} toggles projection mode. (In projection mode only the sum of the
+\item{\tt r} Begin and interactive region selection mode, which can be used to crop the image. After pressing {\tt r},
+move the graphical cursor with one's mouse or pointing tool to the upper-left corner of the region of interest.
+Then click and drag the mouse to the opposite (lower-right) corner, and then release. Pressing {\tt x} then extracts
+(or crops) the image to this subregion. The coordinates of the subregion are displayed in the active terminal
+for reference.
+\item{\tt x} extract the chosen subregion (see command {\tt r}, above).
+\item{\tt >} advance to the next file in the file roster.
+\item{\tt <} go back to the previous file in the file roster.
+\item{\tt F1} displays the image intensities.
+\item{\tt F2} displays the pixels with intensity above the current threshold.
+\item{\tt F3} applies a dialation to the thresholded image, and displays the dialation.
+\item{\tt F4} displays the closure of the thresholed image.
+\item{\tt F5} displays the labeled components of the closure.
+\item{$\leftarrow$} displays the previous band or channel. For example, band = 0 might correspond to
+intensities corresponding to different fluorescent dyes.
+\item{$\rightarrow$} displays the next band or channel.
+\item{$\uparrow$} increases the threshold value by 1.
+\item{$\downarrow$} decreases the threshold value by 1.
+\item{Page-Up} (or possibly fn-$\uparrow$), increases the threshold value by 5.
+\item{Page-Down} (or possibly fn-$\downarrow$), decreases the threshold value by 5.
+\end{description} 
+
+\section{Batch mode}
+
+This application can also be executed in batch mode in a terminal shell, by not invoking the \texttt{-G}
+option. Thus,
+\begin{alltt}
+nuclearSlice -P -o lsmFiles.out  fileroster.txt
+\end{alltt}
+analyzes the \LSM\ files listed in fileroster.txt as a batch, and records the output in file lsmFiles.out.
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
