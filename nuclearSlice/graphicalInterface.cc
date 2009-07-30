@@ -793,10 +793,11 @@ void display() {
 		drawValue(blob.lam1);
 		drawValue(", ");
 		drawValue(blob.lam2);
-		drawValue("), ecc = ");
-		drawValue(sqrt(blob.lam1/blob.lam2));
+		drawValue("),");
 		glRasterPos2i(static_cast<GLint>(10/sf), static_cast<GLint>((10 + 2*glutFontLineSkip)/sf));
-		drawValue("angle of elongation = ");
+		drawValue("ecc = ");
+		drawValue(sqrt(blob.lam1/blob.lam2));
+		drawValue(", angle of elongation = ");
 		double angle = (180./M_PI)*atan2(blob.ev1[1], blob.ev1[0]);
 		drawValue(angle);
       }
